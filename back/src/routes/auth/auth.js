@@ -2,6 +2,7 @@ const express = require("express");
 const connection = require("../../dbConnection");
 const router = express.Router();
 
+
 router.post("/signup", function (req, res, next) {
     const formData = req.body;
     connection.query("INSERT INTO user SET ?", formData, (err, results) => {
