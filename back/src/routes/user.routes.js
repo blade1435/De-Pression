@@ -13,13 +13,13 @@ router.get('/', (req, res) => {
   });
 });
 router.post('/', (req, res) => {
-  const formDta = req.body;
-  connection.query('INSERT INTO user SET ?', formDta, (err, results) => {
+  const formData = req.body;
+  connection.query('INSERT INTO user SET ?', formData, (err, results) => {
     if (err) {
-      res.status(500).send('Erreur lors de la sauvegarde des données ');
+      res.status(500).send(`Erreur lors de la sauvegarde des données (${err.message}) `);
     } else {
 
-      res.json(results);
+      res.status(201).json(results);
     }
   });
 });

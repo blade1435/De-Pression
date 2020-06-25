@@ -1,39 +1,123 @@
-.page-accueil {
-    height: 100vh;
-}
-
 .logo-app {
-    min-width: 6em;
-    max-width: 10em;
+  min-width: 6em;
+  max-width: 10em;
+}
+.logo-auth {
+  width: 20em;
 }
 
 .logo-account {
-    min-width: 4em;
-    max-width: 6em;
+  min-width: 4em;
+  max-width: 6em;
 }
 
 .toggle-menu {
-    width: 2em;
+  width: 2em;
+}
+.btn {
+  background-attachment: local;
+  background-color: #6db4ee;
+  border-color: #6db4ee;
 }
 
-.bouton-connect {
-    background-attachment: local;
-    background-color: #acdaff;
-    margin-bottom: 3em;
-    font-size: 5em;
+.btn:hover {
+  background-attachment: local;
+  background-color: #fa41cc;
 }
+
+.btn:active {
+  background-attachment: local;
+  background-color: #6920b0;
+}
+
+.bouton-connectOne {
+  margin-top: 8em;
+  margin-bottom: 2em;
+}
+
 
 .border-green {
-    border-style: solid;
-    border-color: green;
+  border-style: solid;
+  border-color: green;
 }
 
 .border-red {
-    border-style: solid;
-    border-color: red;
+  border-style: solid;
+  border-color: red;
 }
 
 .element-app {
-    width: 100px;
-    height: 100px;
+  margin-left: 1%;
+  margin-top: 2%;
+  margin-bottom: 7%;
+}
+.titre {
+  text-align: center;
+  font-size: 3em;
+  margin-top: 1%;
+  margin-bottom: 0%;
+  color: rgb(181, 6, 181);
+  text-shadow: 1px 1px 2px pink;
+}
+
+.but {
+  padding-top: 1%;
+  padding-bottom: 3%;
+}
+.module-connexion {
+  min-height: 40vh;
+}
+.auth-key {
+  height: 10em;
+  width: auto;
+}
+
+.auth-title {
+  font-size: 1.2em;
+  font-weight: 800;
+}
+
+.login-form {
+  margin-bottom: 3em;
+}
+.foote {
+  padding-top: 8%;
+}
+
+@media only screen and (max-width: 400px) {
+  .titre {
+    display: none;
+  }
+
+  .bouton-connectOne {
+    font-size: 8px;
+  }
+
+  .bouton-connectTwo {
+    font-size: 8px;
+  }
+
+  .element-app {
+    margin-left: 1%;
+    margin-top: 35%;
+    margin-bottom: 5%;
+  }
+  .but{
+font-size: 0.6em;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1024px) {
+  .element-app {
+    margin-left: 1%;
+    margin-top: 13%;
+    margin-bottom: 16%;
+  }
+  .but {
+    padding-bottom: 13%;
+    padding-top: 5%;
+  }
+  .foote {
+    padding-top: 25%;
+  }
 }
