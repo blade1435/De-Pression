@@ -5,6 +5,8 @@ const disease_elementRouter = require('./disease_element.routes');
 const display_preferencesRouter = require('./display_preferences.routes');
 const userRouter = require('./user.routes');
 const type_ressourceRouter = require('./type_ressource.routes');
+const uploadRouter = require('./upload.routes');
+
 
 
 router.use('/element', elementRouter);
@@ -13,6 +15,7 @@ router.use('/disease_element', disease_elementRouter);
 router.use('/display_preferences', display_preferencesRouter);
 router.use('/user', userRouter);
 router.use('/type_ressource', type_ressourceRouter);
+router.use('/upload', uploadRouter);
 
 
 module.exports = router;
