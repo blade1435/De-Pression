@@ -7,6 +7,10 @@
     max-width: 10em;
 }
 
+.logo-auth {
+    width: 20em;
+}
+
 .logo-account {
     min-width: 4em;
     max-width: 6em;
@@ -16,11 +20,20 @@
     width: 2em;
 }
 
-.bouton-connect {
+.connect-login {
     background-attachment: local;
-    background-color: #acdaff;
-    margin-bottom: 3em;
-    font-size: 5em;
+    background-color: #6db4ee;
+    border-color: #6db4ee;
+}
+
+.connect-login:hover {
+    background-attachment: local;
+    background-color: #fa41cc;
+}
+
+.connect-login:active {
+    background-attachment: local;
+    background-color: #6920b0;
 }
 
 .border-green {
@@ -36,4 +49,22 @@
 .element-app {
     width: 100px;
     height: 100px;
+}
+
+.module-connexion {
+    min-height: 40vh;
+}
+
+.auth-key {
+    height: 10em;
+    width: auto;
+}
+
+.auth-title {
+    font-size: 1.2em;
+    font-weight: 800;
+}
+
+.login-form {
+    margin-bottom: 3em;
 }

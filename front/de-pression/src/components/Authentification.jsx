@@ -1,11 +1,16 @@
 import React, { Component } from 'react';
+import MainNavbar from './MainNavbar';
+import Footer from './Footer';
+import ModuleConnexion from './ModuleConnexion';
 
 class Authentification extends Component {
 
     render() { 
         return ( 
-            <div>
-                <h2>Authentification</h2>
+            <div className="container-fluid">
+                <MainNavbar /> 
+                <ModuleConnexion />
+                <Footer />
             </div>
         );
     }
