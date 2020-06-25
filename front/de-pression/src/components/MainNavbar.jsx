@@ -19,7 +19,7 @@ class MainNavbar extends Component {
                         </button>
                         <div className="collapse navbar-collapse" id="navbarMenu">
                             <div className="navbar-nav mr-auto">
-                                <a href="/profile" className="nav-item nav-link">
+                                <a href="/profil" className="nav-item nav-link">
                                     <img src="../images/user.svg" alt="Mon compte" className="logo-account" />
                                 </a>
                             </div>

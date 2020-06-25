@@ -35,7 +35,6 @@
   margin-bottom: 2em;
 }
 
-
 .border-green {
   border-style: solid;
   border-color: green;
@@ -83,6 +82,14 @@
 .foote {
   padding-top: 8%;
 }
+.titreProfil{
+  text-align: center;
+  padding-left: 25%;
+  margin-bottom: 5%;
+}
+.section-profil{
+  margin-bottom: 2em;
+}
 
 @media only screen and (max-width: 400px) {
   .titre {
@@ -102,8 +109,8 @@
     margin-top: 35%;
     margin-bottom: 5%;
   }
-  .but{
-font-size: 0.6em;
+  .but {
+    font-size: 0.6em;
   }
 }
 

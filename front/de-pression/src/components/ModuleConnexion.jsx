@@ -7,6 +7,10 @@ import {
     Input,
     Tooltip
 } from 'reactstrap';
+import {
+    Link,
+   
+  } from 'react-router-dom';
 
 class ModuleConnexion extends Component {
     constructor(props) {
@@ -110,8 +114,9 @@ class ModuleConnexion extends Component {
                         Se souvenir de moi
                         </Label>
                         </FormGroup>
-                        
+                        <Link to="/profil">
                         <Button type="submit" className="connect-login" >Se connecter</Button>
+                        </Link>
                     </div>
                 </Form>
             </div>
