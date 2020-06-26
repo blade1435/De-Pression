@@ -12,7 +12,7 @@ class Accueil extends Component {
                 <div>
                     <MainNavbar />
                 </div>
-                <div className="container-fluid column justify-content-center align-content-center col-6 ">
+                <div className="container-fluid column justify-content-center align-content-center col-6 expandOpen">
 
                     <div className="container justif-content-center text-center bouton-connectOne">
                         <Link to="/authentification">
